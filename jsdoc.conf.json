@@ -1,0 +1,41 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+
+    "source": {
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+
+    "opts": {
+        "destination": "docs",
+
+        "private": true,
+
+        "readme": "README.md",
+
+        "template": "node_modules/ink-docstrap/template"
+    },
+
+    "templates": {
+        "copyright": "Holger Haas",
+
+        "collapseSymbols": true,
+
+        "cleverLinks": false,
+
+        "monospaceLinks": false,
+
+        "outputSourceFiles": true,
+
+        "theme": "journal",
+
+        "inverseNav": true,
+
+        "navType": "vertical",
+
+        "linenums": true,
+
+        "dateFormat": "MMMM Do YYYY, h:mm:ss a"
+    }
+}
