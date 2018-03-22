@@ -1,0 +1,21 @@
+{
+    "srcs": {
+        "scripts": "src/**/*.js",
+
+        "min": "min/**/*.js"
+    },
+
+    "dests": {
+        "min": "min",
+
+        "reports": {
+            "plato": "reports/plato"
+        }
+    },
+    
+    "dels": {
+        "min": "min/**/*",
+
+        "docs": "docs/**/*"
+    }
+}
