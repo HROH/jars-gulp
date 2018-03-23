@@ -1,7 +1,7 @@
 {
   "name": "jars-gulp",
   "version": "0.1.0",
-  "description": "",
+  "description": "A collection of gulp tools and configurations used in other jars projects",
   "main": "index.js",
   "author": "Holger Haas",
   "private": true,
@@ -19,9 +19,13 @@
     "jars-karma": "git+ssh://git@github.com/HROH/jars-karma.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "eslint -- **/*.js --ignore-pattern node_modules/"
   },
   "devDependencies": {
     "eslint": "4.19.1"
+  },
+  "peerDependencies": {
+    "gulp": "^3.9.1"
   }
 }
