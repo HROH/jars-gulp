@@ -11,7 +11,7 @@
     "es6-plato": "1.0.17",
     "eslint-config-jars": "git+ssh://git@github.com/HROH/eslint-config-jars.git",
     "gulp-gzip": "1.4.2",
-    "gulp-jsdoc3": "1.0.1",
+    "gulp-jsdoc3": "2.0.0",
     "gulp-rename": "1.2.2",
     "gulp-tar": "2.1.0",
     "gulp-uglify": "3.0.0",
