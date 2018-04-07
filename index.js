@@ -4,11 +4,11 @@ var docs = require('./tasks/docs'),
     test = require('./tasks/test'),
     config = require('./config.json');
 
-module.exports = function(gulp, title) {
+module.exports = function(gulp, title, author) {
     'use strict';
 
     config.title = title;
-    config.templateBase = __dirname;
+    config.author = author;
 
     min(gulp, config);
     report(gulp, config);

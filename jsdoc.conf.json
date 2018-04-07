@@ -18,8 +18,6 @@
     },
 
     "templates": {
-        "copyright": "Holger Haas",
-
         "collapseSymbols": true,
 
         "cleverLinks": false,
@@ -28,11 +26,11 @@
 
         "outputSourceFiles": true,
 
-        "theme": "journal",
+        "theme": "sandstone",
 
         "inverseNav": true,
 
-        "navType": "vertical",
+        "navType": "inline",
 
         "linenums": true,
 

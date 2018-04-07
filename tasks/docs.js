@@ -6,9 +6,8 @@ var path = require('path'),
 module.exports = function(gulp, config) {
     'use strict';
 
-    jsdocConfig.opts.template = path.join(config.templateBase, jsdocConfig.opts.template);
-
     jsdocConfig.systemName = config.title;
+    jsdocConfig.templates.copyright = config.author;
 
     gulp.task('clean:docs', function() {
         return del([config.dels.docs]);
